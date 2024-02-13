@@ -1,9 +1,4 @@
-/*!
- * Bootstrap v5.0.0 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
@@ -528,11 +523,13 @@ progress {
     font-size: calc(1.475rem + 2.7vw);
     font-weight: 700;
     line-height: 1.2
+    
 }
 
 @media (min-width: 1200px) {
     .display-4 {
         font-size: 3.5rem
+        
     }
 }
 
