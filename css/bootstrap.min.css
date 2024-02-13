@@ -8212,7 +8212,9 @@ fieldset:disabled .btn {
 }
 
 .bg-light {
-    background-color: #95d819 ;
+    background-color: #95d819 !important
+
+    
 }
 
 .bg-dark {

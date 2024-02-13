@@ -113,6 +113,7 @@
     padding: 0 30px;
     transition: .5s; */
     height: 500px;
+    /* box-shadow: 2px 1px 2px black; */
 }
 
 .service-item .service-icon {
@@ -131,7 +132,9 @@
     padding-top: 1rem;
 }.service-item .service-icon img{
     width: 100%;
-  height: 100%;
+    height: 100%;
+    
+  
 }
 
 .service-item .service-icon i {
@@ -305,4 +308,20 @@
 }
 .mb-0{
     color:#fff !important
+}
+/* .bg-light{
+    border: 1px solid #1D2A4D;
+
+} */
+.service-icon img{
+    border: 2px solid #95d819;
+}
+.team-item{
+    background-color: #95d819;
+}
+.service-item.bg-light{
+    background-color: unset !important;
+}
+.form-control.bg-light{
+    background-color: white !important;
 }
