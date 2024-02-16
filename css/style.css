@@ -40,7 +40,23 @@
     display: block;
   }
 }
-
+.about_section {
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 90px;
+}
+.image_2 {
+  width: 100%;
+  float: left;
+  padding-top: 25px;
+  height: 450px;
+}
+.image_2 img {
+  width: 100%;
+}
+.ser-p {
+  color: black;
+}
 @media (max-width: 991px) {
   .nav-item.dropdown:hover .dropdown-menu {
     display: none;
@@ -52,6 +68,9 @@
   .dropdown-toggle {
     display: inline-block;
     cursor: pointer;
+  }
+  .ser-p.mobile {
+    display: none;
   }
 }
 .care_text {
