@@ -660,6 +660,9 @@ progress {
   .container-lg {
     max-width: 960px;
   }
+  .d-md-none {
+    display: none !important;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -9009,10 +9012,6 @@ fieldset:disabled .btn {
 
   .d-md-inline-flex {
     display: inline-flex !important;
-  }
-
-  .d-md-none {
-    display: none !important;
   }
 
   .flex-md-fill {
