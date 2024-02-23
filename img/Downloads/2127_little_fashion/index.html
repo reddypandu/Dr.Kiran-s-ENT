@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Tooplate's Little Fashion</title>
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/slick.css"/>
+
+        <link href="css/tooplate-little-fashion.css" rel="stylesheet">
+<!--
+
+Tooplate 2127 Little Fashion
+
+https://www.tooplate.com/view/2127-little-fashion
+
+-->
+    </head>
+    
+    <body>
+
+        <section class="preloader">
+            <div class="spinner">
+                <span class="sk-inner-circle"></span>
+            </div>
+        </section>
+    
+        <main>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="index.html">
+                        <strong><span>Little</span> Fashion</strong>
+                    </a>
+
+                    <div class="d-lg-none">
+                        <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+
+                        <a href="product-detail.html" class="bi-bag custom-icon"></a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">Story</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html">Products</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="faq.html">FAQs</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+
+                        <div class="d-none d-lg-block">
+                            <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+
+                            <a href="product-detail.html" class="bi-bag custom-icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="slick-slideshow">   
+                <div class="slick-custom">
+                    <img src="data:image/jpeg;base64,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" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">Cool Marketing</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">Little fashion template comes with total 8 HTML pages provided by Tooplate website.</p>
+
+                                    <a href="contact.html" class="btn custom-btn">Learn more about us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-custom">
+                    <img src="https://img.freepik.com/free-vector/marketing-consulting-concept-illustration_114360-9027.jpg?w=740&t=st=1707110804~exp=1707111404~hmac=3df60bde21eaa0f8d7070f0ca358e84c072bc6fa60e42b1b0ada7222c7695cc8" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">Anil Design</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">Please share this Little Fashion template to your friends. Thank you for supporting us.</p>
+
+                                    <a href="products.html" class="btn custom-btn">Explore products</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-custom">
+                    <img src="https://media.istockphoto.com/id/625727674/photo/marketing-strategy-business-concept.jpg?s=612x612&w=0&k=20&c=_GUELZSwaDEs9_8kwffVuPI9En0fIzhPu_JlRkO7LkE=" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">Talk to us</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">Tooplate is one of the best HTML CSS template websites for everyone.</p>
+
+                                    <a href="contact.html" class="btn custom-btn">Work with us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="about section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 text-center">
+                            <h2 class="mb-5">Get started with <span>Little</span> Fashion</h2>
+                        </div>
+
+                        <div class="col-lg-2 col-12 mt-auto mb-auto">
+                            <ul class="nav nav-pills mb-5 mx-auto justify-content-center align-items-center" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Introduction</button>
+                                </li>
+
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-youtube-tab" data-bs-toggle="pill" data-bs-target="#pills-youtube" type="button" role="tab" aria-controls="pills-youtube" aria-selected="true">How we work?</button>
+                                </li>
+
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill" aria-selected="false">Capabilites</button>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-10 col-12">
+                            <div class="tab-content mt-2" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmarketing&psig=AOvVaw2VNPK551XRsThIDdSSVHIt&ust=1707196008284000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKD5zPK2k4QDFQAAAAAdAAAAABAE" class="img-fluid" alt="">
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Good <span>Design</span> <br>Ideas for <span>your</span> fashion</h4>
+
+                                                <p>Little Fashion templates comes with <a href="sign-in.html">sign in</a> / <a href="sign-up.html">sign up</a> pages, product listing / product detail, about, FAQs, and contact page.</p>
+
+                                                <p>Since this HTML template is based on Boostrap 5 CSS library, you can feel free to add more components as you need.</p>
+
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <a href="about.html" class="custom-link mb-2">
+                                                        Learn more about us
+                                                        <i class="bi-arrow-right ms-2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-youtube" role="tabpanel" aria-labelledby="pills-youtube-tab">
+
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <div class="ratio ratio-16x9">
+                                                <iframe src="https://www.youtube-nocookie.com/embed/f_7JqPDWhfw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Life at Studio</h4>
+
+                                                <p>Over three years in business, We’ve had the chance to work on a variety of projects, with companies</p>
+
+                                                <p>Custom work is branding, web design, UI/UX design</p>
+
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <a href="contact.html" class="custom-link mb-2">
+                                                        Work with us
+                                                        <i class="bi-arrow-right ms-2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="<img src="https://th.bing.com/th?id=OIP.NwOQUOzNcsvZCr9zGodfIwHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" class="img-fluid" alt="">
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">What can help you?</h4>
+
+                                                <p>Over three years in business, We’ve had the chance on projects</p>
+
+                                                <div class="skill-thumb mt-3">
+
+                                                    <strong>Branding</strong>
+                                                        <span class="float-end">90%</span>
+                                                            <div class="progress">
+                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                                                            </div>
+
+                                                    <strong>Design & Stragety</strong>
+                                                        <span class="float-end">70%</span>
+                                                            <div class="progress">
+                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                                                            </div>
+
+                                                    <strong>Online Platform</strong>
+                                                        <span class="float-end">80%</span>
+                                                            <div class="progress">
+                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                                                            </div>
+
+                                                </div>
+                                                
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <a href="products.html" class="custom-link mb-2">
+                                                        Explore products
+                                                        <i class="bi-arrow-right ms-2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="front-product">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6 col-12">
+                            <img src="images/retail-shop-owner-mask-social-distancing-shopping.jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <div class="px-5 py-5 py-lg-0">
+                                
+                                <h2 class="mb-4"><span>Retail</span> shop owners</h2>
+
+                                <p class="lead mb-4">Credits go to Unsplash and FreePik websites for images used in this Little Fashion by Tooplate.</p>
+
+                                <a href="products.html" class="custom-link">
+                                    Explore Products
+                                    <i class="bi-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="featured-product section-padding">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-12 text-center">
+                            <h2 class="mb-5">Featured Products</h2>
+                        </div>
+
+                        <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                                <a href="product-detail.html">
+                                    <img src="images/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg" class="img-fluid product-image" alt="">
+                                </a>
+
+                                <div class="product-top d-flex">
+                                    <span class="product-alert me-auto">New Arrival</span>
+
+                                    <a href="#" class="bi-heart-fill product-icon"></a>
+                                </div>
+
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="product-detail.html" class="product-title-link">Tree pot</a>
+                                        </h5>
+
+                                        <p class="product-p">Original package design from house</p>
+                                    </div>
+
+                                    <small class="product-price text-muted ms-auto mt-auto mb-5">$25</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                                <a href="product-detail.html">
+                                    <img src="images/product/jordan-nix-CkCUvwMXAac-unsplash.jpeg" class="img-fluid product-image" alt="">
+                                </a>
+
+                                <div class="product-top d-flex">
+                                    <span class="product-alert">Low Price</span>
+
+                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                                </div>
+
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="product-detail.html" class="product-title-link">Fashion Set</a>
+                                        </h5>
+
+                                        <p class="product-p">Costume Package</p>
+                                    </div>
+
+                                    <small class="product-price text-muted ms-auto mt-auto mb-5">$35</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-12">
+                            <div class="product-thumb">
+                                <a href="product-detail.html">
+                                    <img src="images/product/nature-zen-3Dn1BZZv3m8-unsplash.jpeg" class="img-fluid product-image" alt="">
+                                </a>
+
+                                <div class="product-top d-flex">
+                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                                </div>
+
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="product-detail.html" class="product-title-link">Juice Drinks</a>
+                                        </h5>
+
+                                        <p class="product-p">Nature made another world</p>
+                                    </div>
+
+                                    <small class="product-price text-muted ms-auto mt-auto mb-5">$45</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 text-center">
+                            <a href="products.html" class="view-all">View All Products</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-10 me-auto mb-4">
+                        <h4 class="text-white mb-3"><a href="index.html">Little</a> Fashion</h4>
+                        <p class="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright © 2022 <strong>Little Fashion</strong></p>
+                        <br>
+                        <p class="copyright-text">Designed by <a href="https://www.tooplate.com/" target="_blank">Tooplate</a></p>
+                    </div>
+
+                    <div class="col-lg-5 col-8">
+                        <h5 class="text-white mb-3">Sitemap</h5>
+
+                        <ul class="footer-menu d-flex flex-wrap">
+                            <li class="footer-menu-item"><a href="about.html" class="footer-menu-link">Story</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Products</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Privacy policy</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">FAQs</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-4">
+                        <h5 class="text-white mb-3">Social</h5>
+
+                        <ul class="social-icon">
+
+                            <li><a href="#" class="social-icon-link bi-youtube"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-instagram"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-skype"></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/Headroom.js"></script>
+        <script src="js/jQuery.headroom.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>
