@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+</head>
+
+<body>
+    <a href="https://wa.me/+919110394278" target="_blank" class="whatsapp-icon">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <!-- Topbar Start -->
+    <div class="container-fluid py-2 border-bottom d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-decoration-none text-body pe-3" href="tel:+9110394278"><i
+                                class="bi bi-telephone me-2"></i>9110394278</a>
+                        <span class="text-body">|</span>
+                        <a class="text-decoration-none text-body px-3" href="info@example.com"><i
+                                class="bi bi-envelope me-2"></i>info@example.com</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-lg-end">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-body px-2"
+                            href="https://www.facebook.com/people/DrKiran-ENT-Clinic/61553815086360/">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                        <a class="text-body px-2" href="https://www.linkedin.com/in/kiran-reddy-aa8a962b2/">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="text-body px-2"
+                            href="https://www.instagram.com/kiran_ent/?igsh=MTI4ZWt1aTFnNjlqbQ%3D%3D">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <!-- <a class="text-body ps-2" href="">
+                            <i class="fab fa-youtube"></i>  -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End - -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top bg-white shadow-sm">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
+                <a href="/" class="navbar-brand">
+                    <!-- <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-clinic-medical me-2"></i>Dr.Kiran's ENT</h1> -->
+                    <img src="../img/main logo.jpg">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="../" class="nav-item nav-link ">Home</a>
+                        <a href="../about.html" class="nav-item nav-link">About</a>
+                        <!-- <a href="service.html" class="nav-item nav-link">Services</a> -->
+                        <!-- <a href="price.html" class="nav-item nav-link">Pricing</a>  -->
+
+                        <div class="nav-item dropdown">
+                            <div class="drop">
+                                <a href="../service.html" class="nav-link active">Services
+                                </a>
+                                <p class="nav-link d-md-none" id="servicesDropdownToggle">+</p>
+                            </div>
+
+
+                            <div class="dropdown-menu m-0">
+
+                                <li> <a class="dropdown-item" href="./thyroiddisorder.html">Thyroid
+                                        Disorders</a></li>
+                                <li><a class="dropdown-item" href="./snoringsleepapnea.html">Snoring & Sleep
+                                        Apena Management</a></li>
+                                <li><a class="dropdown-item" href="./parotidectomy.html">Parotidectomy</a></li>
+                                <li><a class="dropdown-item" href="./Adenoidectomy.html">Adenoidectomy</a></li>
+                                <li><a class="dropdown-item" href="./Hearingspeech.html">Hearing & Speech
+                                        Assessment</a></li>
+                                <li><a class="dropdown-item" href="./Foreignbody.html">Foreignbody Removal</a>
+                                </li>
+                                <li><a class="dropdown-item" href="./Lobuloplasty.html">Lobuloplasty</a></li>
+                                <li><a class="dropdown-item" href="./Allergy-management.html">Allergy
+                                        Management</a></li>
+                                <li><a class="dropdown-item" href="./Tonsillectomy.html">Tonsillectomy</a></li>
+                                <li><a class="dropdown-item" href="./Endoscopicsinus.html">Endoscopicsinus
+                                        Surgery</a></li>
+                                <li><a class="dropdown-item" href="./Septoplasty.html">Septoplasty</a></li>
+                                <li><a class="dropdown-item" href="./Rhinoplasty.html">Rhinoplasty</a></li>
+                                <li><a class="dropdown-item" href="./MicroscopicEndoscopic.html">Microscopic &
+                                        Endoscopic</a></li>
+                                <li><a class="dropdown-item" href="./Treatmentforvoicedisorder.html">Voice
+                                        Disorders</a></li>
+                            </div>
+                        </div>
+                        <a href="../appointment.html" class="nav-item nav-link">Book An Appointment</a>
+                        <a href="../contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+    <style>
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 200) {
+                    $('.sticky-top').addClass('sticky');
+                } else {
+                    $('.sticky-top').removeClass('sticky');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

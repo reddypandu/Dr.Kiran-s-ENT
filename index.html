@@ -9,11 +9,13 @@
     <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
-    <link href="img/logo.jpg" rel="icon">
+    <link href="img/logo_trans.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">  
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
@@ -32,39 +34,43 @@
 
 <body>
     <style>
- 
+
     </style>
     <!-- Topbar Start -->
-     <div class="container-fluid py-2 border-bottom d-none d-lg-block">
+    <div class="container-fluid py-2 border-bottom d-none d-lg-block">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
                     <div class="d-inline-flex align-items-center">
-                        <a class="text-decoration-none text-body pe-3" href="tel:+9110394278"><i class="bi bi-telephone me-2"></i>9110394278</a>
+                        <a class="text-decoration-none text-body pe-3" href="tel:+9110394278"><i
+                                class="bi bi-telephone me-2"></i>9110394278</a>
                         <span class="text-body">|</span>
-                        <a class="text-decoration-none text-body px-3" href="info@example.com"><i class="bi bi-envelope me-2"></i>info@example.com</a>
+                        <a class="text-decoration-none text-body px-3" href="info@example.com"><i
+                                class="bi bi-envelope me-2"></i>info@example.com</a>
                     </div>
                 </div>
                 <div class="col-md-6 text-center text-lg-end">
                     <div class="d-inline-flex align-items-center">
-                        <a class="text-body px-2" href="https://www.facebook.com/people/DrKiran-ENT-Clinic/61553815086360/">
+                        <a class="text-body px-2"
+                            href="https://www.facebook.com/people/DrKiran-ENT-Clinic/61553815086360/">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        
+
                         <a class="text-body px-2" href="https://www.linkedin.com/in/kiran-reddy-aa8a962b2/">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a class="text-body px-2" href="https://www.instagram.com/kiran_ent/?igsh=MTI4ZWt1aTFnNjlqbQ%3D%3D">
+                        <a class="text-body px-2"
+                            href="https://www.instagram.com/kiran_ent/?igsh=MTI4ZWt1aTFnNjlqbQ%3D%3D">
                             <i class="fab fa-instagram"></i>
                         </a>
-                         <!-- <a class="text-body ps-2" href="">
+                        <!-- <a class="text-body ps-2" href="">
                             <i class="fab fa-youtube"></i>  -->
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
     <!-- Topbar End - -->
 
 
@@ -72,9 +78,9 @@
     <div class="container-fluid sticky-top bg-white shadow-sm">
         <div class="container">
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
-                <a href="index.html" class="navbar-brand">
+                <a href="/" class="navbar-brand">
                     <!-- <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-clinic-medical me-2"></i>Dr.Kiran's ENT</h1> -->
-                    <img src="img/main logo.jpg">
+                    <img src="./img/main logo.jpg">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -83,20 +89,44 @@
                     <div class="navbar-nav ms-auto py-0">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
                         <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Services</a>
+                        <!-- <a href="service.html" class="nav-item nav-link">Services</a> -->
                         <!-- <a href="price.html" class="nav-item nav-link">Pricing</a>  -->
-                        <a href="appointment.html" class="nav-item nav-link">Book An Appointment</a>
+
                         <div class="nav-item dropdown">
-                            <!-- <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a> -->
+                            <div class="drop">
+                                <a href="./service.html" class="nav-link">Services
+                                </a>
+                                <p class="nav-link d-md-none" id="servicesDropdownToggle">+</p>
+                            </div>
+
+
                             <div class="dropdown-menu m-0">
-                                <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                                <a href="detail.html" class="dropdown-item">Blog Detail</a>
-                                <a href="team.html" class="dropdown-item">The Team</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                <a href="appointment.html" class="dropdown-item">Appointment</a>
-                                <a href="search.html" class="dropdown-item">Search</a>
+
+                                <li> <a class="dropdown-item" href="./service/thyroiddisorder.html">Thyroid
+                                        Disorders</a></li>
+                                <li><a class="dropdown-item" href="./service/snoringsleepapnea.html">Snoring & Sleep
+                                        Apena Management</a></li>
+                                <li><a class="dropdown-item" href="./service/Parotidectomy.html">Parotidectomy</a></li>
+                                <li><a class="dropdown-item" href="./service/Adenoidectomy.html">Adenoidectomy</a></li>
+                                <li><a class="dropdown-item" href="./service/Hearingspeech.html">Hearing & Speech
+                                        Assessment</a></li>
+                                <li><a class="dropdown-item" href="./service/Foreignbody.html">Foreignbody Removal</a>
+                                </li>
+                                <li><a class="dropdown-item" href="./service/Lobuloplasty.html">Lobuloplasty</a></li>
+                                <li><a class="dropdown-item" href="./service/Allergy-management.html">Allergy
+                                        Management</a></li>
+                                <li><a class="dropdown-item" href="./service/Tonsillectomy.html">Tonsillectomy</a></li>
+                                <li><a class="dropdown-item" href="./service/Endoscopicsinus.html">Endoscopicsinus
+                                        Surgery</a></li>
+                                <li><a class="dropdown-item" href="./service/Septoplasty.html">Septoplasty</a></li>
+                                <li><a class="dropdown-item" href="./service/Rhinoplasty.html">Rhinoplasty</a></li>
+                                <li><a class="dropdown-item" href="./service/MicroscopicEndoscopic.html">Microscopic &
+                                        Endoscopic</a></li>
+                                <li><a class="dropdown-item" href="./service/Treatmentforvoicedisorder.html">Voice
+                                        Disorders</a></li>
                             </div>
                         </div>
+                        <a href="appointment.html" class="nav-item nav-link">Book An Appointment</a>
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
@@ -105,17 +135,21 @@
     </div>
     <!-- Navbar End -->
 
+    <style>
 
+    </style>
     <!-- Hero Start -->
     <div class="container-fluid bg-primary mb-5 hero-header" style="padding-block: 7rem;">
         <div class="container py-5">
             <div class="row justify-content-start">
                 <div class="col-lg-8 text-center text-lg-start">
-                    <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5" style="border-color: rgba(256, 256, 256, .3) !important;">Welcome To Dr.KIRAN'S ENT</h5>
+                    <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5"
+                        style="border-color: rgba(256, 256, 256, .3) !important;">Welcome To </h5>
                     <h1 class="display-1 text-white mb-md-4">Dr.KIRAN'S ENT Special Care For Special Senses</h1>
                     <div class="pt-2">
                         <a href="about.html" class="btn btn-light rounded-pill py-md-3 px-md-5 mx-2">About us</a>
-                        <a href="appointment.html" class="btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2">Appointment</a>
+                        <a href="appointment.html"
+                            class="btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2">Appointment</a>
                     </div>
                 </div>
             </div>
@@ -130,39 +164,57 @@
             <div class="row gx-5">
                 <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded" src="img/doctor.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded" src="img/doctor.jpg"
+                            style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <div class="mb-4">
-                        <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Dr.KIRAN'S ENT</h5>
+                        <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Dr.KIRAN'S ENT
+                        </h5>
                         <h1 class="display-4">Best Medical Care For Yourself and Your Family</h1>
                     </div>
-                    <p></h1>
-                        <p class="lorem_text" style="color: white !important;">ENT hospitals typically employ a multidisciplinary team of medical professionals including otolaryngologists (ENT specialists), audiologists, speech-language pathologists, and other specialists to provide comprehensive care to patients of all ages. They offer a wide range of services including diagnostic evaluations, medical and surgical treatments, rehabilitation services, and preventive care.
-                          
-        Otolaryngology, commonly referred to as ENT (Ear, Nose, and Throat), is a medical specialty that focuses on the diagnosis and treatment of disorders related to the head and neck region. ENT physicians are trained to manage a wide range of conditions, including ear infections, hearing loss, sinus problems, allergies, throat infections, voice disorders, and head and neck cancers. They utilize various diagnostic tools such as endoscopy, imaging studies, and hearing tests to accurately assess patients' conditions. Treatment approaches may involve medication, lifestyle modifications, speech therapy, surgical interventions, or a combination thereof, tailored to each individual's needs. ENT specialists work closely with other medical professionals, including audiologists, speech therapists, oncologists, and neurologists, to provide comprehensive care. Additionally, they often conduct research to advance the understanding and treatment of disorders within their field and may also be involved in teaching and training future ENT physicians.</p>
+                    <p>
+                        </h1>
+                    <p class="lorem_text" style="color: white !important;">ENT hospitals typically employ a
+                        multidisciplinary team of medical professionals including otolaryngologists (ENT specialists),
+                        audiologists, speech-language pathologists, and other specialists to provide comprehensive care
+                        to patients of all ages. They offer a wide range of services including diagnostic evaluations,
+                        medical and surgical treatments, rehabilitation services, and preventive care.
+
+                        Otolaryngology, commonly referred to as ENT (Ear, Nose, and Throat), is a medical specialty that
+                        focuses on the diagnosis and treatment of disorders related to the head and neck region. ENT
+                        physicians are trained to manage a wide range of conditions, including ear infections, hearing
+                        loss, sinus problems, allergies, throat infections, voice disorders, and head and neck cancers.
+                        They utilize various diagnostic tools such as endoscopy, imaging studies, and hearing tests to
+                        accurately assess patients' conditions. Treatment approaches may involve medication, lifestyle
+                        modifications, speech therapy, surgical interventions, or a combination thereof, tailored to
+                        each individual's needs. ENT specialists work closely with other medical professionals,
+                        including audiologists, speech therapists, oncologists, and neurologists, to provide
+                        comprehensive care. Additionally, they often conduct research to advance the understanding and
+                        treatment of disorders within their field and may also be involved in teaching and training
+                        future ENT physicians.</p>
                     <div class="row g-3 pt-3">
                         <div class="col-sm-3 col-6">
-                            <div class="bg-light text-center rounded-circle py-4">
+                            <div class="text-center py-4">
                                 <i class="fa fa-3x fa-user-md text-primary mb-3"></i>
                                 <h6 class="mb-0">Qualified<small class="d-block text-primary">Doctors</small></h6>
                             </div>
                         </div>
                         <div class="col-sm-3 col-6">
-                            <div class="bg-light text-center rounded-circle py-4">
+                            <div class="text-center  py-4">
                                 <i class="fa fa-3x fa-procedures text-primary mb-3"></i>
                                 <h6 class="mb-0">Emergency<small class="d-block text-primary">Services</small></h6>
                             </div>
                         </div>
                         <div class="col-sm-3 col-6">
-                            <div class="bg-light text-center rounded-circle py-4">
+                            <div class=" text-center  py-4">
                                 <i class="fa fa-3x fa-microscope text-primary mb-3"></i>
                                 <h6 class="mb-0">Accurate<small class="d-block text-primary">Testing</small></h6>
                             </div>
                         </div>
                         <div class="col-sm-3 col-6">
-                            <div class="bg-light text-center rounded-circle py-4">
+                            <div class=" text-center  py-4">
                                 <i class="fa fa-3x fa-ambulance text-primary mb-3"></i>
                                 <h6 class="mb-0">Free<small class="d-block text-primary">Ambulance</small></h6>
                             </div>
@@ -173,12 +225,12 @@
         </div>
     </div>
     <a href="https://wa.me/+919110394278" target="_blank" class="whatsapp-icon">
-        <i class="fab fa-whatsapp"></i> <!-- Font Awesome WhatsApp icon -->
+        <i class="fab fa-whatsapp"></i>
     </a>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
 
     <!-- About End -->
-    
+
 
     <!-- Services Start -->
     <div class="container-fluid py-5">
@@ -189,78 +241,90 @@
             </div>
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon mb-4">
                             <!-- <i class="fa fa-2x fa-user-md text-white"></i> -->
-                            <img src="./img/thyroid-conditions.jpg" alt="thyroid" >
+                            <img src="./img/Untitled design (3).png" alt="thyroid" style="object-fit: scale-down;">
                         </div>
                         <h4 class="mb-3">Treatment for thyroid disorders</h4>
-                        <p class="m-0">Treatment for thyroid disorders often involves medication to regulate hormone levels, such as levothyroxine or antithyroid drugs</p>
+                        <p class="m-0">Treatment for thyroid disorders often involves medication to regulate hormone
+                            levels, such as levothyroxine or antithyroid drugs</p>
                         <!-- <a class="btn btn-lg btn-primary rounded-pill" href=""> -->
-                            <!-- <i class="bi bi-arrow-right"></i> -->
+                        <!-- <i class="bi bi-arrow-right"></i> -->
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon mb-4">
                             <!-- <i class="fa fa-2x fa-procedures text-white"></i> -->
-                            <img src="./img/para222.png" alt="thyroid" >
+                            <img src="./img/para222.png" alt="thyroid" style="object-fit: scale-down;">
                         </div>
                         <h4 class="mb-3">parotidectomy</h4>
-                        <p class="m-0">Surgical removal of the parotid gland, commonly performed to treat tumors or chronic infections.</p>
+                        <p class="m-0">Surgical removal of the parotid gland, commonly performed to treat tumors or
+                            chronic infections.</p>
                         <!-- <a class="btn btn-lg btn-primary rounded-pill" href=""> -->
-                            <!-- <i class="bi bi-arrow-right"></i> -->
+                        <!-- <i class="bi bi-arrow-right"></i> -->
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon mb-4">
                             <!-- <i class="fa fa-2x fa-stethoscope text-white"></i> -->
-                            <img src="./img/HS.png" alt="thyroid" >
+                            <img src="./img/HS.png" alt="thyroid">
                         </div>
                         <h4 class="mb-3">Hearing & Speech Assessment</h4>
-                        <p class="m-0">An evaluation focusing on auditory perception and verbal communication skills to identify and address hearing and speech impairments.</p>
+                        <p class="m-0">An evaluation focusing on auditory perception and verbal communication skills to
+                            identify and address hearing and speech impairments.</p>
                         <!-- <a class="btn btn-lg btn-primary rounded-pill" href=""> -->
-                            <!-- <i class="bi bi-arrow-right"></i> -->
+                        <!-- <i class="bi bi-arrow-right"></i> -->
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon mb-4">
                             <!-- <i class="fa fa-2x fa-ambulance text-white"></i> -->
                             <img src="./img/Loublo.png" alt="thyroid">
                         </div>
                         <h4 class="mb-3">Lobuloplasty</h4>
-                        <p class="m-0">Lobuloplasty is a surgical procedure to reshape or repair the earlobe, often performed for aesthetic or reconstructive purposes</p>
+                        <p class="m-0">Lobuloplasty is a surgical procedure to reshape or repair the earlobe, often
+                            performed for aesthetic or reconstructive purposes</p>
                         <!-- <a class="btn btn-lg btn-primary rounded-pill" href=""> -->
-                            <!-- <i class="bi bi-arrow-right"></i> -->
+                        <!-- <i class="bi bi-arrow-right"></i> -->
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon mb-4">
                             <!-- <i class="fa fa-2x fa-pills text-white"></i> -->
                             <img src="./img/All.png" alt="thyroid">
                         </div>
                         <h4 class="mb-3">Allergy management</h4>
-                        <p class="m-0">Allergy management involves identifying triggers, implementing avoidance strategies, and using medications or immunotherapy to alleviate symptoms.</p>
+                        <p class="m-0">Allergy management involves identifying triggers, implementing avoidance
+                            strategies, and using medications or immunotherapy to alleviate symptoms.</p>
                         <!-- <a class="btn btn-lg btn-primary rounded-pill" href=""> -->
-                            <!-- <i class="bi bi-arrow-right"></i> -->
+                        <!-- <i class="bi bi-arrow-right"></i> -->
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon mb-4">
                             <!-- <i class="fa fa-2x fa-microscope text-white"></i> -->
                             <img src="./img/Ton.png" alt="thyroid">
                         </div>
                         <h4 class="mb-3">Tonsillectomy</h4>
-                        <p class="m-0">Tonsillectomy is the surgical removal of the tonsils, typically performed to treat recurrent tonsillitis or obstructive sleep apnea
+                        <p class="m-0">Tonsillectomy is the surgical removal of the tonsils, typically performed to
+                            treat recurrent tonsillitis or obstructive sleep apnea
 
                         </p>
                         <!-- <a class="btn btn-lg btn-primary rounded-pill" href="service.html">
@@ -270,81 +334,16 @@
                 </div>
             </div>
         </div>
-       
+
     </div>
-   <div class="text-center">
- <a href="service.html" class="read">Read more</a>
-   </div>
-       
- 
+    <div class="text-center">
+        <a href="service.html" class="read">Read more</a>
+    </div>
+
+
     <!-- Services End -->
 
 
-    <!-- Appointment Start -->
-    <div class="container-fluid bg-primary my-5 py-5">
-        <div class="container py-5">
-            <div class="row gx-5">
-                <div class="col-lg-6 mb-5 mb-lg-0">
-                    <div class="mb-4">
-                        <h5 class="d-inline-block text-white text-uppercase border-bottom border-5" style="color: white !important;">Appointment</h5>
-                        <h1 class="display-4" style="color: #f9ca02 !important;">Make An Appointment For Your Family</h1>
-                    </div>
-                    <p class="text-white mb-5" style="color: white !important;">Securing your health starts with a simple step – booking your appointment with us. Our team is committed to providing personalized care to address your unique needs. Take charge of your well-being today by scheduling your consultation. Contact us to arrange a convenient time and embark on your journey towards better health and vitality. We're here to support you every step of the way.</p>
-                    <!-- <a class="btn btn-dark rounded-pill py-3 px-5 me-3" href="">Find Doctor</a>
-                    <a class="btn btn-outline-dark rounded-pill py-3 px-5" href="">Read More</a> -->
-                </div>
-                <div class="col-lg-6">
-                    <div class="bg-white text-center rounded p-5">
-                        <h1 class="mb-4">Book An Appointment</h1>
-                        <form>
-                            <!-- <div class="row g-3">
-                                <div class="col-12 col-sm-6">
-                                    <select class="form-select bg-light border-0" style="height: 55px;">
-                                        <option selected>Choose Department</option>
-                                        <option value="1">Department 1</option>
-                                        <option value="2">Department 2</option>
-                                        <option value="3">Department 3</option>
-                                    </select>
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <select class="form-select bg-light border-0" style="height: 55px;">
-                                        <option selected>Select Doctor</option>
-                                        <option value="1">Doctor 1</option>
-                                        <option value="2">Doctor 2</option>
-                                        <option value="3">Doctor 3</option>
-                                    </select>
-                                </div> -->
-                                <div class="col-12 col-sm-12">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-12">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-12">
-                                    <div class="date" id="date" data-target-input="nearest">
-                                        <input type="text"
-                                            class="form-control bg-light border-0 datetimepicker-input"
-                                            placeholder="Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-12">
-                                    <div class="time" id="time" data-target-input="nearest">
-                                        <input type="text"
-                                            class="form-control bg-light border-0 datetimepicker-input"
-                                            placeholder="Time" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Make An Appointment</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Appointment End -->
 
 
 
@@ -366,13 +365,20 @@
                             <div class="mt-auto p-4">
                                 <h3>Dr.Kiran</h3>
                                 <h6 class="fw-normal fst-italic text-primary mb-4"></h6>
-                                <p class="m-0">ENT doctors diagnose and treat conditions related to the ear, nose, and throat, including infections, allergies, and structural issues.</p>
+                                <p class="m-0">ENT doctors diagnose and treat conditions related to the ear, nose, and
+                                    throat, including infections, allergies, and structural issues.</p>
                             </div>
                             <div class="d-flex mt-auto border-top p-4">
                                 <!-- <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="https://www.facebook.com/people/DrKiran-ENT-Clinic/61553815086360/"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="https://www.linkedin.com/in/kiran-reddy-aa8a962b2/"><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="https://www.instagram.com/kiran_ent/?igsh=MTI4ZWt1aTFnNjlqbQ%3D%3D"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3"
+                                    href="https://www.facebook.com/people/DrKiran-ENT-Clinic/61553815086360/"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3"
+                                    href="https://www.linkedin.com/in/kiran-reddy-aa8a962b2/"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle"
+                                    href="https://www.instagram.com/kiran_ent/?igsh=MTI4ZWt1aTFnNjlqbQ%3D%3D"><i
+                                        class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -386,77 +392,108 @@
                             <div class="mt-auto p-4">
                                 <h3>Dr.Kiran</h3>
                                 <h6 class="fw-normal fst-italic text-primary mb-4"></h6>
-                                <p class="m-0">ENT doctors also perform procedures such as tonsillectomies, adenoidectomies, sinus surgeries, and hearing evaluations.</p>
+                                <p class="m-0">ENT doctors also perform procedures such as tonsillectomies,
+                                    adenoidectomies, sinus surgeries, and hearing evaluations.</p>
                             </div>
                             <div class="d-flex mt-auto border-top p-4">
                                 <!-- <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a> -->
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="https://www.facebook.com/people/DrKiran-ENT-Clinic/61553815086360/"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="https://www.linkedin.com/in/kiran-reddy-aa8a962b2/"><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="https://www.instagram.com/kiran_ent/?igsh=MTI4ZWt1aTFnNjlqbQ%3D%3D"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3"
+                                    href="https://www.facebook.com/people/DrKiran-ENT-Clinic/61553815086360/"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3"
+                                    href="https://www.linkedin.com/in/kiran-reddy-aa8a962b2/"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle"
+                                    href="https://www.instagram.com/kiran_ent/?igsh=MTI4ZWt1aTFnNjlqbQ%3D%3D"><i
+                                        class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- Team End -->
 
 
-
-    <!-- Testimonial Start -->
-    <div class="container-fluid py-5">
+    <section class="videos pb-2">
+        <h3 class="work-videos text-center mb-4">Work Videos</h3>
         <div class="container">
-            <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Testimonial</h5>
-                <h1 class="display-4">Patients Say About Our Services</h1>
+            <div class="video1 video">
+                <video controls muted>
+                    <source src="./videos/Video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="owl-carousel testimonial-carousel">
-                        <div class="testimonial-item text-center">
-                            <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-circle mx-auto" src="img/testimonial-1.jpg" alt="">
-                                <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle" style="width: 60px; height: 60px;">
-                                    <i class="fa fa-quote-left fa-2x text-primary"></i>
-                                </div>
-                            </div>
-                            <p class="fs-4 fw-normal" style="color: white !important;">Exceptional care! From the comfortable waiting area to the expertise of the ENT specialists, my experience at this hospital was top-notch. Grateful for their attentive staff and efficient services. </p>
-                            <hr class="w-25 mx-auto">
-                            <h3>Jhansi Rani</h3>
-                            <h6 class="fw-normal text-primary mb-3">mugician</h6>
-                        </div>
-                        <div class="testimonial-item text-center">
-                            <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-circle mx-auto" src="img/testimonial-2.jpg" alt="">
-                                <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle" style="width: 60px; height: 60px;">
-                                    <i class="fa fa-quote-left fa-2x text-primary"></i>
-                                </div>
-                            </div>
-                            <p class="fs-4 fw-normal" style="color: white !important;">Highly recommend this ENT hospital! The state-of-the-art facilities and compassionate staff made me feel at ease throughout my treatment journey. Thank you for restoring my health and well-being!</p>
-                            <hr class="w-25 mx-auto">
-                            <h3>John Babu</h3>
-                            <h6 class="fw-normal text-primary mb-3">Teacher</h6>
-                        </div>
-                        <div class="testimonial-item text-center">
-                            <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-circle mx-auto" src="img/testimonial-3.jpg" alt="">
-                                <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle" style="width: 60px; height: 60px;">
-                                    <i class="fa fa-quote-left fa-2x text-primary"></i>
-                                </div>
-                            </div>
-                            <p class="fs-4 fw-normal" style="color: white !important;">The  hospital exceeded my expectations with their prompt service, skilled specialists, and a warm, welcoming atmosphere, ensuring my journey to recovery was smooth and successful.</p>
-                            <hr class="w-25 mx-auto">
-                            <h3>Pragna</h3>
-                            <h6 class="fw-normal text-primary mb-3">singer</h6>
-                        </div>
+            <div class="video2 video">
+                <video controls muted>
+                    <source src="./videos/Video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Appointment Start -->
+    <div class="container-fluid bg-primary my-5 py-5">
+        <div class="container py-5">
+            <div class="row gx-5">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="mb-4">
+                        <h5 class="d-inline-block text-white text-uppercase border-bottom border-5"
+                            style="color: white !important;">Appointment</h5>
+                        <h1 class="display-4" style="color: #f9ca02 !important;">Make An Appointment For Your Family
+                        </h1>
                     </div>
+                    <p class="text-white mb-5" style="color: white !important;">Securing your health starts with a
+                        simple step – booking your appointment with us. Our team is committed to providing personalized
+                        care to address your unique needs. Take charge of your well-being today by scheduling your
+                        consultation. Contact us to arrange a convenient time and embark on your journey towards better
+                        health and vitality. We're here to support you every step of the way.</p>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-white text-center rounded p-5">
+                        <h1 class="mb-4">Book An Appointment</h1>
+                        <form>
+
+                            <div class="col-12 col-sm-12">
+                                <input type="text" class="form-control bg-light border-0" placeholder="Your Name"
+                                    style="height: 55px;">
+                            </div>
+                            <div class="col-12 col-sm-12">
+                                <input type="email" class="form-control bg-light border-0" placeholder="Your Email"
+                                    style="height: 55px;">
+                            </div>
+                            <div class="col-12 col-sm-12">
+                                <div class="date" id="date" data-target-input="nearest">
+                                    <input type="text" class="form-control bg-light border-0 datetimepicker-input"
+                                        placeholder="Date" data-target="#date" data-toggle="datetimepicker"
+                                        style="height: 55px;">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12">
+                                <div class="time" id="time" data-target-input="nearest">
+                                    <input type="text" class="form-control bg-light border-0 datetimepicker-input"
+                                        placeholder="Time" data-target="#time" data-toggle="datetimepicker"
+                                        style="height: 55px;">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Make An Appointment</button>
+                            </div>
+                    </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Testimonial End -->
+
+    <!-- Appointment End -->
+
+
 
 
     <!-- Blog Start -->
@@ -469,10 +506,12 @@
             <div class="row g-5">
                 <div class="col-xl-4 col-lg-6">
                     <div class="bg-light rounded overflow-hidden">
-                        <img class="img-fluid w-100" src="img/blog111.png" alt="">
-                       
+                        <img class="img-fluid w-100" src="./img/Allergy 12345.jpg" alt="">
+
                         <div class="p-4">
-                            <p class=" d-block mb-3 text-white" style="color: white !important;">Allergy management involves identifying triggers, implementing avoidance strategies, and using medications or immunotherapy to alleviate symptoms.</p>
+                            <p class=" d-block mb-3 text-white" style="color: white !important;">Allergy management
+                                involves identifying triggers, implementing avoidance strategies, and using medications
+                                or immunotherapy to alleviate symptoms.</p>
                         </div>
                         <div class="d-flex justify-content-between border-top p-4">
                             <div class="d-flex align-items-center">
@@ -480,17 +519,19 @@
                                 <small>Dr.Kiran</small>
                             </div>
                             <div class="d-flex align-items-center">
-                                <small class="ms-3"><i class="far fa-eye text-primary me-1"></i>12345</small>
-                                <small class="ms-3"><i class="far fa-comment text-primary me-1"></i>123</small>
+                                <small class="ms-3"><i class="far fa-eye text-primary me-1"></i>12564</small>
+                                <small class="ms-3"><i class="far fa-comment text-primary me-1"></i>163</small>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6">
                     <div class="bg-light rounded overflow-hidden">
-                        <img class="img-fluid w-100" src="img/blog222.png" alt="">
+                        <img class="img-fluid w-100" src="./img/Microscopic & Endoscopic ear surgeries Image.jpg" alt="">
                         <div class="p-4">
-                            <p class=" d-block mb-3 text-white" style="color: white !important;" >Microscopic and endoscopic ear surgeries are minimally invasive procedures utilizing specialized scopes to diagnose and treat ear conditions.</p>
+                            <p class=" d-block mb-3 text-white" style="color: white !important;">Microscopic and
+                                endoscopic ear surgeries are minimally invasive procedures utilizing specialized scopes
+                                to diagnose and treat ear conditions.</p>
                         </div>
                         <div class="d-flex justify-content-between border-top p-4">
                             <div class="d-flex align-items-center">
@@ -498,17 +539,19 @@
                                 <small>Dr.Kiran</small>
                             </div>
                             <div class="d-flex align-items-center">
-                                <small class="ms-3"><i class="far fa-eye text-primary me-1"></i>12345</small>
-                                <small class="ms-3"><i class="far fa-comment text-primary me-1"></i>123</small>
+                                <small class="ms-3"><i class="far fa-eye text-primary me-1"></i>14682</small>
+                                <small class="ms-3"><i class="far fa-comment text-primary me-1"></i>183</small>
                             </div>
-                        </div>
+                        </div>                          
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6">
                     <div class="bg-light rounded overflow-hidden">
-                        <img class="img-fluid w-100" src="img/blog333.png" alt="">
+                        <img class="img-fluid w-100" src="./img/Microscopic & Endoscopic ear surgeries Image.jpg" alt="">
                         <div class="p-4">
-                            <p class=" d-block mb-3 text-white"style="color: white !important;" >Voice disorder treatment involves a multidisciplinary approach encompassing voice therapy, behavioral modifications, and, if necessary.</p>
+                            <p class=" d-block mb-3 text-white" style="color: white !important;">Voice disorder
+                                treatment involves a multidisciplinary approach encompassing voice therapy, behavioral
+                                modifications, and, if necessary.</p>
                         </div>
                         <div class="d-flex justify-content-between border-top p-4">
                             <div class="d-flex align-items-center">
@@ -526,78 +569,179 @@
         </div>
     </div>
     <!-- Blog End -->
-    
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light mt-5 py-5">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Get In Touch</h4>
-                    <!-- <p class="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor</p> -->
-                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>plot No.343, Radhika Residency, 1st Floor</br>
-                        Raja Rajeswari Colony, Kondapur, Hyderabad-500084 </p>
-                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@example.com</p>
-                    <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>9110394278</br>
-                        9502692347 </p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Quick Links</h4>
-                    <div class="d-flex flex-column justify-content-start">
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Home</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>About Us</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Our Services</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Meet The Team</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Latest Blog</a>
-                        <a class="text-light" href="#"><i class="fa fa-angle-right me-2"></i>Contact Us</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Services</h4>
-                    <div class="d-flex flex-column justify-content-start">
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Thyroid</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Snoring & Sleep apnea</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Parotidectomy</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Adenoidectomy for snoring child</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Hearing & Speech Assessment</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Foreign removal ear,nose & throat</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Lobuloplasty</a>
-                    </div>
-                </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">services</h4>
-                    <div class="d-flex flex-column justify-content-start">
-                        
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Allergy management</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Tonsillectomy</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Endoscopic Sinus</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Septoplasty</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Rhinoplasty</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Microscopic & Endoscopic ear surgeries</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Voice disorders</a>
-
-                    </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Our social Links</h4>
-                        <div class="d-flex">
-                        <!-- <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-twitter"></i></a> -->
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="https://www.facebook.com/people/DrKiran-ENT-Clinic/61553815086360/"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="https://www.linkedin.com/in/kiran-reddy-aa8a962b2/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="https://www.instagram.com/kiran_ent/?igsh=MTI4ZWt1aTFnNjlqbQ%3D%3D"><i class="fab fa-instagram"></i></a>
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5" style="max-width: 500px;">
+                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Testimonial</h5>
+                <h1 class="display-4">Patients Say About Our Services</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle mx-auto" src="img/testimonial-1.jpg" alt="">
+                                <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center  rounded-circle"
+                                    style="width: 60px; height: 60px;">
+                                    <i class="fa fa-quote-left fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-6 fw-normal" style="color: white !important;">As a fellow doctor seeking help
+                                for facial pain, I appreciated Dr. Kiran's swift diagnosis, informative approach, and
+                                ethical gesture of not charging a consultation fee among colleagues. It's a rare and
+                                refreshing experience, and I wish him and the clinic continued success.</p>
+                            <hr class="w-25 mx-auto">
+                            <h3>Sindhu Kalwa</h3>
+                            <h6 class="fw-normal text-primary mb-3">Business Man</h6>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle mx-auto" src="img/testimonial-2.jpg" alt="">
+                                <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center  rounded-circle"
+                                    style="width: 60px; height: 60px;">
+                                    <i class="fa fa-quote-left fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-6 fw-normal" style="color: white !important;">An outstanding ENT surgeon in and
+                                around Kondapur, Dr. Kiran is highly skilled and attentive. He possesses a deep
+                                understanding of patient concerns and provides effective treatments. This clinic caters
+                                to both children and adults. Remarkably, Dr. Kiran is not driven by commercial motives;
+                                his commitment to patient care is commendable. I highly recommend Dr. Kiran for anyone
+                                seeking a reputable ENT surgeon in Kondapur.</p>
+                            <hr class="w-25 mx-auto">
+                            <h3>Jeevan M</h3>
+                            <h6 class="fw-normal text-primary mb-3">Teacher</h6>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle mx-auto" src="img/testimonial-3.jpg" alt="">
+                                <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center  rounded-circle"
+                                    style="width: 60px; height: 60px;">
+                                    <i class="fa fa-quote-left fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-6 fw-normal" style="color: white !important;">Visiting Dr. Kiran's ENT clinic
+                                was a pleasure. His exceptional expertise, attentive listening, and insightful
+                                questioning made my experience truly exceptional. I highly recommend his clinic to
+                                anyone seeking top-notch care for ENT problems.</p>
+                            <hr class="w-25 mx-auto">
+                            <h3>Srinivas Raghupatruni</h3>
+                            <h6 class="fw-normal text-primary mb-3">Singer</h6>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-dark text-light border-top border-secondary py-4">
+    <!-- Testimonial End -->
+    <!-- Footer Start -->
+    <div class="container-fluid text-light mt-5 py-5 footer">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">
+                        Get In Touch</h4>
+                    <!-- <p class="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor</p> -->
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>plot No.343, Radhika
+                        Residency, 1st Floor</br>
+                        Raja Rajeswari Colony, Kondapur, Hyderabad-500084 </p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i> <a
+                            href="mailto:info@example.com">info@example.com</a> </p>
+                    <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i> <a
+                            href="tel:+919110394278">9110394278</a>/
+                        <a href="tel:+919502692347">9502692347</a>
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <h4
+                        class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4  ">
+                        Quick Links</h4>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-light mb-2" href="/">
+                            <!-- <i class="fa fa-angle-right me-2"></i> -->
+                            Home</a>
+                        <a class="text-light mb-2" href="../about.html">
+                            <!-- <i class="fa fa-angle-right me-2"></i> -->
+                            About Us</a>
+                        <a class="text-light mb-2" href="../service.html">
+                            <!-- <i class="fa fa-angle-right me-2"></i> -->
+                            Our Services</a>
+                        <a class="text-light mb-2" href="#">
+                            <!-- <i class="fa fa-angle-right me-2"></i> -->
+                            Meet The Team</a>
+                        <a class="text-light mb-2" href="#">
+                            <!-- <i class="fa fa-angle-right me-2"></i> -->
+                            Latest Blog</a>
+                        <a class="text-light" href="#">
+                            <!-- <i class="fa fa-angle-right me-2"></i> -->
+                            Contact Us</a>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6">
+              <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">
+                Services</h4>
+              <div class="d-flex flex-column justify-content-start">
+                <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Thyroid</a>
+                <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Snoring & Sleep
+                  apnea</a>
+                <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Parotidectomy</a>
+                <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Adenoidectomy for
+                  snoring child</a>
+                <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Hearing & Speech
+                  Assessment</a>
+                <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Foreign removal
+                  ear,nose & throat</a>
+                <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Lobuloplasty</a>
+              </div>
+            </div> -->
+                <!-- <div class="col-lg-3 col-md-6">
+              <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">
+                services</h4>
+              <div class="d-flex flex-column justify-content-start">
+    
+                <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Allergy management</a>
+                <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Tonsillectomy</a>
+                <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Endoscopic Sinus</a>
+                <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Septoplasty</a>
+                <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Rhinoplasty</a>
+                <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Microscopic &
+                  Endoscopic ear surgeries</a>
+                <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Voice disorders</a>
+    
+              </div>
+            </div> -->
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">
+                        Our social Links</h4>
+                    <div class="d-flex">
+                        <!-- <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-twitter"></i></a> -->
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2"
+                            href="https://www.facebook.com/people/DrKiran-ENT-Clinic/61553815086360/"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2"
+                            href="https://www.linkedin.com/in/kiran-reddy-aa8a962b2/"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle"
+                            href="https://www.instagram.com/kiran_ent/?igsh=MTI4ZWt1aTFnNjlqbQ%3D%3D"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-light border-top border-secondary py-4 copy">
         <div class="container">
             <div class="row g-5">
                 <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-md-0">&copy; <a class="text-primary" href="#">Dr.KIRAN'S ENT</a>. All Rights Reserved.</p>
+                    <p class="mb-md-0">&copy; <a class="text-primary" href="#">Dr.KIRAN'S ENT</a>. All
+                        Rights Reserved.
+                    </p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
-                    <p class="mb-0">Designed by <a class="text-primary" href="https://www.thepatternscompany.com" target="_blank">The patterns company</a></p>
+                    <p class="mb-0">Designed by <a class="text-primary" href=" https://www.thepatternscompany.com"
+                            target="_blank">The patterns company</a></p>
                 </div>
             </div>
         </div>
