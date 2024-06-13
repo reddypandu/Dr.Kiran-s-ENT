@@ -99,7 +99,28 @@
 }
 #navbarCollapse > div > div > div.dropdown-menu.m-0 {
   background-color: #13c5dd;
+
+
 }
+@media(min-width:992px){
+  #navbarCollapse > div > div > div.dropdown-menu.m-0 {
+
+    height: 70vh;
+    overflow: hidden;
+    overflow-y: scroll;
+  
+  }
+  #navbarCollapse > div > div > div.dropdown-menu.m-0::-webkit-scrollbar{
+    width: 10px;
+   }
+   #navbarCollapse > div > div > div.dropdown-menu.m-0::-webkit-scrollbar-thumb{
+     background:#95d819;
+   }
+   #navbarCollapse > div > div > div.dropdown-menu.m-0::-webkit-scrollbar-track{
+     background: #13c5dd;
+   }
+}
+
 #navbarCollapse > div > div > div.dropdown-menu.m-0 > li:hover a {
   background-color: #95d819 !important;
 }
@@ -254,6 +275,16 @@ display: none;
     overflow-y: scroll;
     max-height: 300px;
   }
+  .navbar-nav::-webkit-scrollbar{
+    width: 8px;
+  }
+  .navbar-nav::-webkit-scrollbar-thumb{
+   background: #95d819;
+  }
+  .navbar-nav::-webkit-scrollbar-track{
+    background: #13c5dd;
+  }
+
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
